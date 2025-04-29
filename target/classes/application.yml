@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: demo
+forwarding:
+  recipients:
+    - recipientId: "Customer1"
+      url: "http://localhost:4000/orders"
+    - recipientId: "Customer2"
+      url: "http://localhost:4000/orders"
